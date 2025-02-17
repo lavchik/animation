@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+   animation-name: abdullobot;
+   animation-duration: 0.1;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-direction: alternate;
+
+}
+@keyframes abdullobot{
+    0%{
+        background-color: white;
+    }
+    25%{
+        background-color:pink;
+    }
+    50%{
+        background-color:aqua;
+    }
+    75%{
+        background-color:yellow;
+    }
+    100%{
+        background-color: black;
+    }
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:palevioletred;
+    border: 4px solid black;
+    animation-name: kotta;
+    animation-duration: 3s;
+    animation-delay: 1s;
+   animation-direction: normal;
+   transform: translate(0,0); 
+   animation-timing-function: linear;  
+}
+@keyframes kotta{
+    0%{
+        transform: translate(0)
+    }
+    25%{
+        transform: translatex(500px)
+    }
+    50%{
+        transform: translate(500,500px)
+    }
+    75%{
+        transform: translate(0,500px)
+    }
+    100%{
+        transform: translate(0)
+    }
+}
